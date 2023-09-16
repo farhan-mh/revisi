@@ -1,0 +1,98 @@
+.judul{
+    z-index: 1;
+    top: 0;
+    position: sticky;    
+    color: rgb(91, 88, 82);
+    text-transform: capitalize;
+    background: white;
+    /* background: linear-gradient(90deg,#00dbde,#ff00ff);  */
+    /* border-bottom: 1px solid gray; */
+    padding: 20px 0 20px 0;
+    box-shadow: 0px 0px 12px 3px rgba(194,194,194,0.75);
+    -webkit-box-shadow: 0px 0px 12px 3px rgba(194,194,194,0.75);
+    -moz-box-shadow: 0px 0px 12px 3px rgba(194,194,194,0.75);
+   
+}
+.h11{
+    font-family: monospace;
+    font-size: 30px;
+}
+.box{
+    
+    /* border: 1px solid black; */
+    transition: transform 0.5s;
+    border-radius: 7px;
+    margin: 15px;
+   
+    padding: 18px;
+    text-transform: capitalize;
+    background-color: white;
+    transition:0.4s ease-in-out;
+}
+
+.box:hover{
+    transform: translateY(-7px);
+    transition:0.4s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+    /* background: linear-gradient(90deg,#00dbde,#ff00ff);  */
+    /* background: #fbfbfb; */
+    background: linear-gradient(150deg,white, rgb(216, 216, 216) );
+    background-size: 500%;
+    /* -webkit-background-clip: text; */
+    animation: warna 1s ease-in-out ;
+    box-shadow: 0px 0px 12px 3px rgba(194,194,194,0.75);
+-webkit-box-shadow: 0px 0px 12px 3px rgba(194,194,194,0.75);
+-moz-box-shadow: 0px 0px 12px 3px rgba(194,194,194,0.75);
+
+}
+@keyframes warna {
+    0%{
+        background-position: 100% 0%;
+    }
+    100%{
+        background-position: 0% 100%;
+    }
+    /* 100%{
+        background-position: 100% 0%;
+    } */
+    /* from{
+        background-position: 100% 50%;
+    }
+    to{
+        background-position: 50% 100%;
+    } */
+}
+
+.gambar{
+    height: 290px;
+    width: 95%;
+/*     padding: px 8px 8px 8px; */
+    background-color: rgb(232, 230, 230);
+    border-radius: 7px;
+    margin: 0 0 20px 0;
+}
+
+
+/* .tombolKembali{   
+    padding: 10px 10px;
+    width: 20%;
+    margin: 10px 10px;
+    background-color: #1363DF;
+    border-radius: 5px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+} */
+
+
+
+<!--  -->
+.kotak{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin:40px 35% 80px 35%; 
+    padding:40px 40px 0 40px;
+    background-color:white; 
+}

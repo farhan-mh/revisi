@@ -1,0 +1,65 @@
+.judul{
+    font-family:sans-serif;
+    color: rgb(91, 88, 82);
+    text-transform: capitalize;
+    background: linear-gradient(90deg,#00dbde,#ff00ff); 
+    border-bottom: 1px solid gray;
+    padding: 20px 0 20px 0;
+    box-shadow: 0px 6px 3px 1px rgba(28,22,22,0.75);
+    -webkit-box-shadow: 0px 6px 3px 1px rgba(28,22,22,0.75);
+    -moz-box-shadow: 0px 6px 3px 1px rgba(28,22,22,0.75);
+   
+}
+.box{
+    
+    border: 1px solid black;
+    transition: transform 0.5s;
+    border-radius: 7px;
+    margin: 15px;
+   
+    padding: 18px;
+    text-transform: capitalize;
+    background-color: white;
+}
+.gambar{
+    height: 290px;
+    width: 95%;
+    padding: 8px 8px 8px 8px;
+    background-color: rgb(232, 230, 230);
+    border-radius: 7px;
+    margin: 0 0 20px 0;
+}
+.button{
+    padding: 10px 20px 10px 20px;
+    font-size: 14px;
+    width: 90%;
+    margin: 10px 10px;
+    background-color: #2de311;
+    border-radius: 5px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.tombolKembali{   
+    padding: 10px 10px;
+    width: 20%;
+    margin: 10px 10px;
+    background-color: #1363DF;
+    border-radius: 5px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+<!--  -->
+.kotak{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin:40px 35% 80px 35%; 
+    padding:40px 40px 0 40px;
+    background-color:white; 
+}
